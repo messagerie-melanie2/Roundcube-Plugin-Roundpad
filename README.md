@@ -9,6 +9,16 @@ There is no implementation of Etherpad or Ethercalc API, it works only with URL.
 This plugin is based on kolab_files plugin. 
 
 
+Screenshots
+-----------
+
+Plugin
+![capture d ecran - 28102016 - 11 58 40](https://cloud.githubusercontent.com/assets/3693239/19806927/eec1cf32-9d1d-11e6-9b16-707ca3767698.png)
+
+Create new document
+![capture d ecran - 28102016 - 11 59 46](https://cloud.githubusercontent.com/assets/3693239/19806931/fbf725da-9d1d-11e6-8c9b-a9eef87255ad.png)
+
+
 License
 -------
 
