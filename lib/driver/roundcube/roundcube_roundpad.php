@@ -24,7 +24,10 @@ class roundcube_roundpad extends roundpad_driver
    * Save data to storage
    */
   protected function _saveData() {
-    return rcmail::get_instance()->user->save_prefs(array('roundpad_data' => $this->data));
+    if ($this->hasChanged) {
+      return rcmail::get_instance()->user->save_prefs(array('roundpad_data' => $this->data));
+    }
+    return true;
   }
   /**
    * Load data from the storage
