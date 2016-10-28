@@ -1,12 +1,10 @@
 /**
- * Kolab files plugin
+ * Roundpad plugin
  *
+ * @author Thomas Payen <thomas.payen@apitech.fr>
  * @author Aleksander Machniak <machniak@kolabsys.com>
  *
- * @licstart  The following is the entire license notice for the
- * JavaScript code in this file.
- *
- * Copyright (C) 2011, Kolab Systems AG <contact@kolabsys.com>
+ * This plugin is based on kolab_files plugin
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -20,9 +18,6 @@
  *
  * You should have received a copy of the GNU Affero General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
- *
- * @licend  The above is the entire license notice
- * for the JavaScript code in this file.
  */
 
 window.rcmail && window.files_api && rcmail.addEventListener('init', function() {

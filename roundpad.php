@@ -1,16 +1,11 @@
 <?php
-
 /**
- * Roundcube Drive using flysystem for filesystem
+ * Roundpad plugin
  *
- * @version @package_version@
  * @author Thomas Payen <thomas.payen@apitech.fr>
+ * @author Aleksander Machniak <machniak@kolabsys.com>
  *
- * This plugin is inspired by kolab_files plugin
- * Use flysystem library : https://github.com/thephpleague/flysystem
- * With flysystem WebDAV adapter : https://github.com/thephpleague/flysystem-webdav
- *
- * Copyright (C) 2015 PNE Annuaire et Messagerie MEDDE/MLETR
+ * This plugin is based on kolab_files plugin
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -25,13 +20,6 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-
-// Configuration du nom de l'application pour l'ORM
-if (! defined('CONFIGURATION_APP_LIBM2')) {
-  define('CONFIGURATION_APP_LIBM2', 'roundcube');
-}
-// LibM2 ORM
-require_once 'includes/libm2.php';
 
 class roundpad extends rcube_plugin
 {
